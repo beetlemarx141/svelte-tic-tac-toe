@@ -1,15 +1,17 @@
 {
   "name": "svelte-tic-tac-toe",
+  "type": "module",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+	"prepare": "svelte-kit sync"
   },
   "devDependencies": {
-    "@sveltejs/kit": "latest",
-    "svelte": "latest",
-    "vite": "latest",
-    "@sveltejs/vite-plugin-svelte": "latest"
+    "@sveltejs/kit": "^2.49.0",
+    "svelte": "^5.43.14",
+    "vite": "^7.2.4",
+    "@sveltejs/vite-plugin-svelte": "^6.2.1"
   }
 }
